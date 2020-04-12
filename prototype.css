@@ -1,0 +1,42 @@
+
+body{
+    box-sizing: border-box;
+   
+}
+.card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width:275px;
+    height: 300px; 
+    background-color: antiquewhite;
+   
+    border-radius: 6px;
+}
+.card>h2{
+    font: var(--heading2);
+    padding: 8px;
+    margin: 0;
+}
+.card>h3{
+    font: var(--heading3);
+    color: rgb(148, 144, 144);
+    padding: 0 8px;
+    margin: 0;
+}
+.cardImg{
+    background: url('https://miro.medium.com/max/1400/0*TEQIMY6HnBXr8Z5R')center /cover;
+    width: inherit;
+    height: 40%;
+    border-radius: inherit;
+}
+
+.card:hover{
+   transition: .2s;
+   box-shadow: 0px 15px  #f54949;
+}
+.posts{
+    transition: .2s;
+    box-shadow: 5px 5px 40px  #dfd7d7;
+    margin: 10px;
+}

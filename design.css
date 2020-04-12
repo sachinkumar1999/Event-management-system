@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Kranky|Mali:400,600|Raleway:700|Text+Me+One&display=swap');
+:root{
+    --heading1: 'Kranky', cursive;
+    --heading2: 700 1.4rem 'Raleway', sans-serif;
+    --heading3: 600 1rem 'Mali',cursive;
+    font-family:  'Text Me One', sans-serif;
+}
+
